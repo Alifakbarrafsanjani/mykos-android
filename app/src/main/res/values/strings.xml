@@ -1,0 +1,202 @@
+<resources>
+    <!-- Identitas Aplikasi -->
+    <string name="app_name">MyKos</string>
+    <string name="app_tagline">Kelola Kos Jadi Lebih Mudah &amp; Rapi</string>
+    <string name="app_version_info">MyKos Versi 1.0.0</string>
+    <string name="app_about_desc">Aplikasi manajemen kamar kos berbasis Android dengan arsitektur modern, penyimpanan lokal terintegrasi, dan tampilan Soft UI Liquid Glass.</string>
+
+    <!-- Navigasi -->
+    <string name="nav_beranda">Beranda</string>
+    <string name="nav_profil">Profil</string>
+
+    <!-- Autentikasi (Login & Register) -->
+    <string name="auth_welcome_title">Selamat Datang</string>
+    <string name="auth_welcome_subtitle">Masuk untuk mengelola kamar kos Anda</string>
+    <string name="auth_register_title">Buat Akun Baru</string>
+    <string name="auth_register_subtitle">Daftar untuk mulai mendata kamar kos</string>
+    <string name="hint_nama_lengkap">Nama Lengkap</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_masuk">Masuk</string>
+    <string name="btn_daftar">Daftar Sekarang</string>
+    <string name="btn_daftar_akun">Belum Punya Akun? Daftar</string>
+    <string name="label_atau">atau</string>
+    <string name="label_lupa_password">Lupa Password?</string>
+    <string name="label_sudah_punya_akun">Sudah punya akun? Masuk di sini</string>
+    <string name="hint_reset_email">Masukkan email terdaftar Anda</string>
+    <string name="dialog_reset_title">Reset Password</string>
+    <string name="dialog_reset_message">Tautan pengaturan ulang password akan dikirim ke email Anda.</string>
+    <string name="btn_kirim">Kirim</string>
+    <string name="msg_reset_email_invalid">Masukkan alamat email yang valid.</string>
+    <string name="msg_reset_sent">Tautan reset password telah dikirim ke email Anda.</string>
+    <string name="msg_register_success">Registrasi berhasil! Selamat datang di MyKos.</string>
+
+    <!-- Validasi Form -->
+    <string name="err_nama_empty">Nama lengkap tidak boleh kosong</string>
+    <string name="err_email_empty">Email tidak boleh kosong</string>
+    <string name="err_email_invalid">Format email tidak valid</string>
+    <string name="err_password_empty">Password tidak boleh kosong</string>
+    <string name="err_password_short">Password minimal 6 karakter</string>
+    <string name="err_nomor_kamar_empty">Nomor atau nama kamar wajib diisi</string>
+    <string name="err_harga_sewa_invalid">Masukkan harga sewa yang valid</string>
+    <string name="err_nama_penghuni_empty">Nama penghuni wajib diisi</string>
+    <string name="err_no_hp_penghuni_empty">Nomor HP penghuni wajib diisi</string>
+
+    <!-- Beranda / Dashboard -->
+    <string name="beranda_greeting_default">Halo, Pemilik Kos</string>
+    <string name="beranda_greeting_format">Halo, %1$s</string>
+    <string name="beranda_subtitle">Pantau ketersediaan kamar kos Anda</string>
+    <string name="stat_total">Total Kamar</string>
+    <string name="stat_terisi">Terisi</string>
+    <string name="stat_kosong">Kosong</string>
+    <string name="label_estimasi_pemasukan">Estimasi Pemasukan / Bulan</string>
+    <string name="hint_cari_kamar">Cari nomor kamar atau penghuni...</string>
+    <string name="filter_semua">Semua</string>
+    <string name="filter_terisi">Terisi</string>
+    <string name="filter_kosong">Kosong</string>
+    <string name="status_terisi">Terisi</string>
+    <string name="status_kosong">Kosong</string>
+    <string name="dialog_sort_title">Urutkan Daftar Kamar</string>
+    <string name="sort_terbaru">Terbaru Ditambahkan</string>
+    <string name="sort_harga_terendah">Harga Termurah</string>
+    <string name="sort_harga_tertinggi">Harga Termahal</string>
+    <string name="sort_nomor_az">Nomor Kamar (A - Z)</string>
+
+    <!-- Detail Kamar & Komunikasi -->
+    <string name="title_detail_kamar">Detail Kamar</string>
+    <string name="label_fasilitas">Fasilitas Kamar</string>
+    <string name="fasilitas_standar">Standar</string>
+    <string name="label_info_penghuni">Informasi Penghuni</string>
+    <string name="label_nama_penghuni">Nama Penghuni</string>
+    <string name="label_no_hp">Nomor HP / WhatsApp</string>
+    <string name="label_tanggal_masuk">Tanggal Masuk</string>
+    <string name="label_kosong_belum_ada_penghuni">Kamar ini sedang kosong dan siap disewakan.</string>
+    <string name="default_penghuni_name">Penghuni</string>
+    <string name="btn_hubungi_wa">WhatsApp</string>
+    <string name="btn_telepon">Telepon</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_hapus">Hapus</string>
+    <string name="wa_chat_template">Halo %1$s, terkait \%2$s di MyKos.</string>
+    <string name="wa_share_pdf_caption">Halo %1$s, berikut rincian data &amp; sewa %2$s (\%3$s) dari MyKos.</string>
+    <string name="msg_phone_empty">Nomor HP penghuni belum diisi.</string>
+    <string name="msg_whatsapp_not_found">Tidak ditemukan aplikasi untuk membuka WhatsApp.</string>
+    <string name="msg_dialer_not_found">Aplikasi telepon tidak tersedia.</string>
+    <string name="dialog_hapus_kamar_title">Hapus %1$s?</string>
+    <string name="dialog_hapus_kamar_message">Data kamar dan informasi penghuni akan dihapus secara permanen.</string>
+    <string name="msg_kamar_dihapus">Data kamar berhasil dihapus.</string>
+
+    <!-- Ekspor & Berbagi PDF -->
+    <string name="menu_export_terisi">Unduh Laporan Kamar Terisi</string>
+    <string name="menu_export_terisi_desc">Simpan daftar penghuni &amp; pemasukan ke PDF</string>
+    <string name="msg_no_occupied_rooms">Belum ada kamar berstatus Terisi untuk diekspor.</string>
+    <string name="msg_export_success">Laporan PDF kamar terisi berhasil disimpan.</string>
+    <string name="msg_export_failed">Gagal membuat file laporan PDF.</string>
+    <string name="btn_unduh_detail_kamar">Unduh Data Kamar (PDF)</string>
+    <string name="msg_detail_export_success">Data kamar berhasil diunduh sebagai PDF.</string>
+    <string name="msg_detail_export_failed">Gagal menyimpan file PDF kamar.</string>
+    <string name="btn_kirim_pdf_wa">Kirim PDF ke Penghuni</string>
+    <string name="msg_share_pdf_chooser">Kirim Data Kamar PDF ke Penghuni</string>
+    <string name="msg_share_pdf_failed">Gagal menyiapkan file PDF untuk dibagikan.</string>
+
+    <!-- Form Tambah & Edit Kamar -->
+    <string name="title_tambah_kamar">Tambah Kamar</string>
+    <string name="title_edit_kamar">Edit Kamar</string>
+    <string name="label_foto_kamar">Foto Kamar</string>
+    <string name="label_upload_foto">Ketuk untuk Unggah Foto Kamar</string>
+    <string name="label_upload_foto_hint">Pilih dari Kamera atau Galeri</string>
+    <string name="label_ganti_foto">Ganti Foto</string>
+    <string name="hint_nomor_kamar">Nomor / Nama Kamar (Contoh: Kamar 101)</string>
+    <string name="hint_harga_sewa">Harga Sewa per Bulan (Rp)</string>
+    <string name="label_pilih_fasilitas">Pilih Fasilitas</string>
+    <string name="fasilitas_ac">AC</string>
+    <string name="fasilitas_km_dalam">Kamar Mandi Dalam</string>
+    <string name="fasilitas_wifi">Wi-Fi</string>
+    <string name="fasilitas_kasur">Kasur</string>
+    <string name="fasilitas_lemari">Lemari</string>
+    <string name="fasilitas_meja">Meja Belajar</string>
+    <string name="hint_status_kamar">Status Kamar</string>
+    <string name="hint_nama_penghuni">Nama Lengkap Penghuni</string>
+    <string name="hint_no_hp">Nomor HP / WhatsApp (Contoh: 0812...)</string>
+    <string name="hint_tanggal_masuk">Tanggal Masuk (Ketuk untuk pilih tanggal)</string>
+    <string name="dialog_date_picker_title">Pilih Tanggal Masuk</string>
+    <string name="btn_simpan_kamar">Simpan Kamar</string>
+    <string name="btn_perbarui_kamar">Perbarui Kamar</string>
+    <string name="msg_kamar_ditambahkan">Kamar berhasil ditambahkan.</string>
+    <string name="msg_kamar_diperbarui">Perubahan data kamar berhasil disimpan.</string>
+    <string name="msg_camera_not_found">Aplikasi kamera tidak ditemukan di perangkat ini.</string>
+    <string name="msg_camera_open_failed">Gagal membuka kamera: %1$s</string>
+
+    <!-- Profil & Pengaturan -->
+    <string name="title_profil">Profil &amp; Pengaturan</string>
+    <string name="label_pengaturan">Pengaturan Aplikasi</string>
+    <string name="menu_mode_tema">Mode Tampilan</string>
+    <string name="tema_sistem">Ikuti Sistem</string>
+    <string name="tema_terang">Mode Terang</string>
+    <string name="tema_gelap">Mode Gelap</string>
+    <string name="menu_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="btn_tutup">Tutup</string>
+    <string name="btn_keluar">Keluar Akun</string>
+    <string name="dialog_logout_title">Keluar dari Akun?</string>
+    <string name="dialog_logout_message">Anda perlu masuk kembali untuk mengakses data kamar kos Anda.</string>
+
+    <!-- Photo Picker Bottom Sheet -->
+    <string name="picker_title">Pilih Sumber Foto</string>
+    <string name="picker_kamera">Ambil dari Kamera</string>
+    <string name="picker_kamera_desc">Foto langsung menggunakan kamera perangkat</string>
+    <string name="picker_galeri">Pilih dari Galeri</string>
+    <string name="picker_galeri_desc">Pilih foto kamar yang sudah tersimpan</string>
+    <string name="btn_batal">Batal</string>
+
+    <!-- State Views (Empty, Error, Loading) -->
+    <string name="empty_title_default">Belum Ada Data Kamar</string>
+    <string name="empty_desc_default">Tekan tombol + di bawah untuk mulai menambahkan kamar kos pertama Anda.</string>
+    <string name="empty_action_add">Tambah Kamar</string>
+    <string name="empty_title_search">Kamar Tidak Ditemukan</string>
+    <string name="empty_desc_search">Tidak ada kamar yang cocok dengan pencarian atau filter Anda.</string>
+    <string name="error_title_default">Terjadi Gangguan</string>
+    <string name="error_desc_default">Gagal memuat data kamar. Silakan coba beberapa saat lagi.</string>
+    <string name="error_action_retry">Coba Lagi</string>
+    <string name="loading_message">Memuat data...</string>
+
+    <!-- Content Descriptions (Aksesibilitas) -->
+    <string name="cd_app_logo">Logo Aplikasi MyKos</string>
+    <string name="cd_foto_kamar">Foto Kamar Kos</string>
+    <string name="cd_chevron_right">Lihat Detail</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_sort_kamar">Urutkan Kamar</string>
+    <string name="cd_export_terisi">Unduh Laporan Kamar Terisi</string>
+    <string name="cd_fab_tambah">Tambah Kamar Baru</string>
+    <string name="cd_camera_icon">Ikon Kamera</string>
+    <string name="cd_gallery_icon">Ikon Galeri</string>
+    <string name="cd_theme_icon">Ikon Mode Tema</string>
+    <string name="cd_info_icon">Ikon Informasi</string>
+    <string name="cd_empty_illustration">Ilustrasi Data Kosong</string>
+    <string name="cd_error_illustration">Ilustrasi Gangguan Sistem</string>
+    <!-- Tambahan Profil: Koreksi, Edit Nama & Ganti Password -->
+    <string name="default_owner_name">Pemilik Kos</string>
+    <string name="cd_edit_profil">Edit nama profil</string>
+    <string name="dialog_edit_nama_title">Edit Nama Profil</string>
+    <string name="dialog_edit_nama_message">Masukkan nama lengkap atau nama kos yang ingin ditampilkan.</string>
+    <string name="hint_nama_profil">Nama Lengkap / Nama Kos</string>
+    <string name="msg_nama_updated">Nama profil berhasil diperbarui</string>
+    <string name="msg_nama_update_failed">Gagal memperbarui nama profil. Periksa koneksi internet Anda.</string>
+
+    <string name="menu_ganti_password">Ganti Password</string>
+    <string name="menu_ganti_password_desc">Kirim tautan ubah kata sandi ke email akun</string>
+    <string name="cd_ganti_password">Ikon ganti password</string>
+    <string name="dialog_ganti_password_title">Ganti Password?</string>
+    <string name="dialog_ganti_password_message">Tautan pengaturan ulang kata sandi akan dikirim ke email:\n%1$s</string>
+    <string name="msg_ganti_password_sent">Tautan ganti password telah dikirim ke email Anda</string>
+    <string name="msg_ganti_password_failed">Gagal mengirim tautan ganti password. Silakan coba lagi.</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="err_field_required">Kolom ini wajib diisi</string>
+    <!-- Fitur Notifikasi Pengingat Sewa -->
+    <string name="menu_notifikasi_sewa">Pengingat Jatuh Tempo Sewa</string>
+    <string name="menu_notifikasi_sewa_desc">Cek tagihan sewa &amp; uji notifikasi pengingat</string>
+    <string name="cd_notifikasi">Ikon notifikasi pengingat</string>
+    <string name="notif_channel_name">Pengingat Sewa MyKos</string>
+    <string name="notif_channel_desc">Notifikasi pengingat jatuh tempo pembayaran sewa bulanan dan aktivitas kamar</string>
+    <string name="msg_notif_permission_denied">Izin notifikasi ditolak. Aktifkan izin notifikasi di pengaturan perangkat.</string>
+    <string name="msg_notif_checked_empty">Tidak ada kamar yang jatuh tempo dalam 3 hari ke depan. Notifikasi simulasi dikirim.</string>
+    <string name="msg_notif_sent">Notifikasi pengingat sewa berhasil dikirim!</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_xl">
+
+    <ImageView
+        android:id="@+id/ivErrorIllustration"
+        android:layout_width="@dimen/icon_size_hero"
+        android:layout_height="@dimen/icon_size_hero"
+        android:contentDescription="@string/cd_error_illustration"
+        android:src="@drawable/ic_error_network" />
+
+    <TextView
+        android:id="@+id/tvErrorTitle"
+        style="@style/TextAppearance.MyKos.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:gravity="center"
+        android:text="@string/error_title_default" />
+
+    <TextView
+        android:id="@+id/tvErrorDescription"
+        style="@style/TextAppearance.MyKos.BodySecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xs"
+        android:gravity="center"
+        android:text="@string/error_desc_default" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnErrorRetry"
+        style="@style/Widget.MyKos.Button.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height_sm"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:paddingHorizontal="@dimen/spacing_lg"
+        android:text="@string/error_action_retry" />
+
+</LinearLayout>

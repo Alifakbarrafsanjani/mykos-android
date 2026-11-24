@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Accent (Editorial Proptech - Dark Mode) -->
+    <color name="primary">#6EE7B7</color>
+    <color name="primary_dark">#34D399</color>
+    <color name="secondary">#F59E0B</color>
+    <color name="tertiary">#1C3329</color>
+
+    <!-- Surfaces & Backgrounds (Warm Obsidian) -->
+    <color name="background">#111312</color>
+    <color name="surface">#1A1D1B</color>
+    <color name="surface_elevated">#242926</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#F4F4F0</color>
+    <color name="text_secondary">#A8A29E</color>
+    <color name="text_on_primary">#0F291E</color>
+
+    <!-- Semantic Status -->
+    <color name="success">#4ADE80</color>
+    <color name="success_container">#143824</color>
+    <color name="on_success_container">#86EFAC</color>
+
+    <color name="error">#F87171</color>
+    <color name="error_container">#451A1A</color>
+    <color name="on_error_container">#FCA5A5</color>
+
+    <color name="neutral_container">#2A2E2C</color>
+    <color name="on_neutral_container">#D6D3D1</color>
+
+    <!-- Borders & Dividers -->
+    <color name="border">#2E3330</color>
+    <color name="divider">#2A2E2C</color>
+    <color name="ripple_primary">#266EE7B7</color>
+    <color name="scrim">#99090A09</color>
+
+    <!-- Surface Card & Header Wash Tokens (Dark) -->
+    <color name="glass_fill_start">#1E2220</color>
+    <color name="glass_fill_end">#1A1D1B</color>
+    <color name="glass_stroke">#2E3330</color>
+    <color name="glass_header_start">#331B4332</color>
+    <color name="glass_header_mid">#146EE7B7</color>
+    <color name="glass_header_end">#00111312</color>
+
+    <!-- Splash Screen Gradient -->
+    <color name="splash_gradient_start">#0B1F17</color>
+    <color name="splash_gradient_center">#143326</color>
+    <color name="splash_gradient_end">#111312</color>
+</resources>

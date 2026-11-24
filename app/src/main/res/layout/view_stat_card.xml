@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_liquid_glass_card"
+    android:elevation="@dimen/elevation_sm"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/spacing_sm"
+    android:paddingVertical="@dimen/spacing_md">
+
+    <TextView
+        android:id="@+id/tvStatLabel"
+        style="@style/TextAppearance.MyKos.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        tools:text="@string/stat_total" />
+
+    <TextView
+        android:id="@+id/tvStatCount"
+        style="@style/TextAppearance.MyKos.StatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xs"
+        android:textColor="@color/primary"
+        tools:text="3" />
+
+</LinearLayout>

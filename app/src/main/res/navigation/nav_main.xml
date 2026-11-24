@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/berandaFragment">
+
+    <fragment
+        android:id="@+id/berandaFragment"
+        android:name="com.alif.mykos.ui.beranda.BerandaFragment"
+        android:label="@string/nav_beranda"
+        tools:layout="@layout/fragment_beranda">
+
+        <action
+            android:id="@+id/action_berandaFragment_to_detailKamarFragment"
+            app:destination="@id/detailKamarFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_berandaFragment_to_formKamarFragment"
+            app:destination="@id/formKamarFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.alif.mykos.ui.profil.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/detailKamarFragment"
+        android:name="com.alif.mykos.ui.detail.DetailKamarFragment"
+        android:label="@string/title_detail_kamar"
+        tools:layout="@layout/fragment_detail_kamar">
+
+        <argument
+            android:name="kamarId"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_detailKamarFragment_to_formKamarFragment"
+            app:destination="@id/formKamarFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/formKamarFragment"
+        android:name="com.alif.mykos.ui.form.FormKamarFragment"
+        android:label="@string/title_tambah_kamar"
+        tools:layout="@layout/fragment_form_kamar">
+
+        <argument
+            android:name="kamarId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

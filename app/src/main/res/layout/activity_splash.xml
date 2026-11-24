@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient"
+    android:padding="@dimen/spacing_lg">
+
+    <FrameLayout
+        android:id="@+id/cardLogo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/bg_liquid_glass_card"
+        android:elevation="@dimen/elevation_md"
+        android:padding="@dimen/spacing_md"
+        app:layout_constraintBottom_toTopOf="@id/tvSplashAppName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/ivSplashLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cd_app_logo"
+            android:src="@drawable/ic_home_kos" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvSplashAppName"
+        style="@style/TextAppearance.MyKos.Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@id/tvSplashTagline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardLogo" />
+
+    <TextView
+        android:id="@+id/tvSplashTagline"
+        style="@style/TextAppearance.MyKos.Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xs"
+        android:alpha="0.85"
+        android:text="@string/app_tagline"
+        app:layout_constraintBottom_toTopOf="@id/progressSplash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSplashAppName" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_xl"
+        android:indeterminate="true"
+        app:indicatorColor="@color/primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:trackColor="@color/glass_stroke"
+        app:trackCornerRadius="@dimen/radius_pill" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

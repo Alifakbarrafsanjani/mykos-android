@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194695273089",
+    "project_id": "mykos-f5670",
+    "storage_bucket": "mykos-f5670.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194695273089:android:2949fe62f40abb51d64b80",
+        "android_client_info": {
+          "package_name": "com.alif.mykos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVt8UY26S7V18hxOnObIEKJ9aZQu5Ut6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

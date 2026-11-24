@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bayangan Lembut di Bawah Bangunan -->
+    <path
+        android:fillColor="#29091A12"
+        android:pathData="M56,33.5 L32.5,52.5 C31.4,53.4 32.0,55.2 33.4,55.2 L37,55.2 L37,76.5 C37,78.4 38.6,80 40.5,80 L71.5,80 C73.4,80 75,78.4 75,76.5 L75,55.2 L78.6,55.2 C80.0,55.2 80.6,53.4 79.5,52.5 L56,33.5 Z" />
+
+    <!-- Siluet Utama Bangunan Kos (Putih Bersih) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30.5 L30.5,49.5 C29.4,50.4 30.0,52.2 31.4,52.2 L35,52.2 L35,73.5 C35,75.4 36.6,77 38.5,77 L69.5,77 C71.4,77 73,75.4 73,73.5 L73,52.2 L76.6,52.2 C78.0,52.2 78.6,50.4 77.5,49.5 L54,30.5 Z" />
+
+    <!-- Jendela Loteng Melingkar (Deep Forest) -->
+    <path
+        android:fillColor="#1B4332"
+        android:pathData="M54,43.5 A3.5,3.5 0 1,0 54,50.5 A3.5,3.5 0 1,0 54,43.5 Z" />
+
+    <!-- Pintu Melengkung Kamar Kos (Forest Dark) -->
+    <path
+        android:fillColor="#0F291E"
+        android:pathData="M48,77 L48,63 C48,59.7 50.7,57 54,57 C57.3,57 60,59.7 60,63 L60,77 Z" />
+
+    <!-- Gagang Pintu Aksen Warm Terracotta -->
+    <path
+        android:fillColor="#C26D2D"
+        android:pathData="M57.2,66.9 A1.1,1.1 0 1,0 57.2,69.1 A1.1,1.1 0 1,0 57.2,66.9 Z" />
+</vector>
